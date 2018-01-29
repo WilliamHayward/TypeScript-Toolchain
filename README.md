@@ -11,3 +11,7 @@ To setup, run
 To use, run
 
 `grunt`
+
+Or to watch, run
+
+`grunt watch`

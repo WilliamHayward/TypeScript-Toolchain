@@ -1,5 +1,3 @@
-const webpackConfig = require('./webpack.config.js');
-
 const config = {
     entry: {
       final: './build/final.js',

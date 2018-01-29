@@ -8,3 +8,8 @@ const a: Class1 = new Class1('---');
 const b: Class2 = new Class2('___');
 const c: Class1 = new Class1('---');
 const d: Class2 = new Class2('___');
+
+a.print();
+b.print();
+c.print();
+d.print();

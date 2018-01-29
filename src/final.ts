@@ -6,3 +6,6 @@ import {Class2} from './Class2';
 
 const a: Class1 = new Class1('---');
 const b: Class2 = new Class2('___');
+
+a.print();
+b.print();

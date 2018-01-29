@@ -36,6 +36,12 @@ module.exports = function(grunt) {
         clean: {
             build: ['build'],
             dist: ['dist']
+        },
+        watch: {
+            scripts: {
+                files: ['src/*.ts'],
+                tasks: ['build']
+            }
         }
     });
     
@@ -44,8 +50,7 @@ module.exports = function(grunt) {
     grunt.loadNpmTasks('grunt-exec');
     grunt.loadNpmTasks('grunt-tslint');
     grunt.loadNpmTasks('grunt-contrib-clean');
-
-
+    grunt.loadNpmTasks('grunt-contrib-watch');
 
     // Default task(s).
     grunt.registerTask('build', ['tslint', 'exec', 'clean:build', 'uglify'])

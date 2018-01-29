@@ -8,6 +8,6 @@ export class Class1 {
     }
 
     public print(): void {
-        console.log(this.message);
+        console.log('Class1: ' + this.message);
     }
 }
