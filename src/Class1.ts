@@ -2,7 +2,7 @@
  * @author: William Hayward
  */
 export class Class1 {
-    private message: string;
+    protected message: string;
     constructor(message: string) {
         this.message = message;
     }
