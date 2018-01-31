@@ -10,4 +10,8 @@ export class Class1 {
     public print(): void {
         console.log('Class1: ' + this.message);
     }
+
+    public getMessage(): string {
+        return this.message;
+    }
 }
